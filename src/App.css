@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: rgb(187, 230, 228);
+  font-style: italic;
 }
 
 .container {
@@ -14,10 +16,34 @@
 }
 
 .card-title {
-  text-decoration: line-through;
+  font-size: medium;
 }
 
-.card {
-  padding: 2em;
+.header {
+  background-color: rgb(8, 75, 131);
+  color: 42BFDD;
 }
 
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1%;
+}
+
+.navbar > li {
+  border: solid  black;
+  display: flex;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: rgb(187, 230, 228);
+}
+
+h1 {
+  padding-top: 2%;
+  text-decoration-line: unset;
+}
+
+p {
+  font-size: 24px;
+}

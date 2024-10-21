@@ -3,8 +3,8 @@ export default function Project(props) {
         <div className="container">
             <div className="card-container">
                 <img src={`props.img`} alt="#" />Img:
-                <h5 className="card-title">Title:{props.title}</h5>
-                <a href="#">Link:{props.link}</a>
+                <h5 className="card-title">{props.title}</h5>
+                <a href="#">{props.link}</a>
             </div>
         </div>
     );

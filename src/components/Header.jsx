@@ -1,9 +1,11 @@
 import Navigation from './Navigation';
+
+
 export default function Header() {
     return (
-        <div>
+        <header className='header'>
             <h1> Dev Balsher Porfolio</h1>
             <Navigation />
-        </div>
+            </header>
     )
 }
