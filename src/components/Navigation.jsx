@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Navigation() {
   const currentPage = useLocation().pathname;
@@ -12,4 +12,4 @@ export default function Navigation() {
       </nav>
     </div>
   );
-}
+};
