@@ -23,6 +23,7 @@
 
   ## Links
   No walkthrough videos were needed for this project for it is mainly frontend.
+  deployed website link: https://unique-dev-portfolio.netlify.app/
 
   ## Credits
   I would like to take a moment and thank the Instructor and the TA for their guidance, alongside those colleagues who were able to answer my questions with questions to get me to think outside of the box aswell! 
