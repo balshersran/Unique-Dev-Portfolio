@@ -3,11 +3,16 @@
 export default function Footer() {
     const githubUrl = 'https://github.com/balshersran';
     return(
-        <div>
+        <div className="footer-container">
             {/* insert an image for github */}
-            <p>Github</p>
+            <div className="footer-el">
+            <a href={githubUrl}>Github</a>
+            </div>
+            <br />
+            <div className="footer-el">
             {/*  insert an image for linkedin */}
-            <li>LinkedIn</li>
+            <a href={githubUrl}>LinkedIN</a>
+            </div>
         </div>
     );
 }

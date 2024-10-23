@@ -47,3 +47,20 @@ h1 {
 p {
   font-size: 24px;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin: 2%;
+  background-color: rgb(66, 191, 221);
+}
+
+.footer-el {
+  color: aliceblue;
+  display: flex;
+  padding: 2%;
+  justify-content: space-evenly;
+  border: solid 3%;
+}

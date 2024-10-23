@@ -1,9 +1,9 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Resume() {
     return (
         <div>
-            <Header />
             <h2>Proficiences</h2>
             <p>HTML/CSS</p>
             <p>JavaScript</p>

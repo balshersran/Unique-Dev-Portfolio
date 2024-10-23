@@ -3,7 +3,6 @@ import Header from "../components/Header";
 export default function AboutMe() {
     return (
         <div>
-            <Header />
             <h1>About Me</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio,

@@ -1,5 +1,5 @@
 import Project from "../components/Project";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 
 // each Project card has img, title, github repo link
 const hmtlProj = {
@@ -35,7 +35,7 @@ const weatherDashboard = {
 export default function Portfolio() {
     return (
         <div>
-            <Header />
+            
             <h1>Portfolio</h1>
             <Project img={hmtlProj.img} title={hmtlProj.title}  />
             <Project img={jsEmployeeTrackerProject.img} title={jsEmployeeTrackerProject.title}  />

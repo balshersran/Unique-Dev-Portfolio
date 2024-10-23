@@ -32,7 +32,7 @@ export default function Contact() {
 
   return (
     <div className="formContainer">
-      <Header />
+    
       <h1>Contact</h1>
       <form onClick={handleChange}>
         <div className="labelContainer">
